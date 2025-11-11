@@ -1,0 +1,40 @@
+.app-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f2937; /* dark gray */
+  color: #f9fafb; /* light text */
+  font-size: 0.9rem;
+}
+
+.footer-line {
+  border: 0;
+  height: 1px;
+  background: #4b5563; /* subtle gray line */
+  margin-bottom: 0.5rem;
+}
+
+.footer-text a {
+  color: #60a5fa; /* blue for links */
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
+
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: bold;
+}
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  padding: 2rem;
+}
