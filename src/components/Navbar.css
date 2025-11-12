@@ -12,6 +12,7 @@
   font-family: 'Inter', sans-serif;
   z-index: 100;
 }
+
 .btn-login {
   background-color: #fc1515;
   color: white;
@@ -34,13 +35,15 @@
   gap: 8px;
 }
 
-.logo-img {
-  height: 40px;
-  width: 100px;
-  object-fit: contain;
+.navbar-title {
+  font-size: 1.2rem;  /* Smaller font size */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black; /* Change text color to black */
+  margin: 0;
+  letter-spacing: 1px; /* Optional: Add a little spacing between letters for better readability */
 }
 
- 
 /* Navigation Links */
 .navbar-links {
   display: flex;
