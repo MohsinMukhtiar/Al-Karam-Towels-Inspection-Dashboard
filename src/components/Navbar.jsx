@@ -40,13 +40,11 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      {/* Logo */}
+      {/* Title */}
       <div className="navbar-logo">
-        <img
-          src="src/logo.jpg"
-          alt="AL-KARAM TOWELS INSPECTION DATA"
-          className="logo-img"
-        />
+        <h1 className="navbar-title">
+          AL-KARAM TOWELS INSPECTION DATA
+        </h1>
       </div>
 
       {/* Hamburger */}
