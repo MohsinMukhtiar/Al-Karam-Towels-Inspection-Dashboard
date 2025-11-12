@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import logo from './logo.jpg';
 import {
   HomeIcon,
   PlusCircleIcon,
@@ -42,11 +43,11 @@ export default function Navbar() {
     <nav className="navbar">
       {/* Logo */}
       <div className="navbar-logo">
-        <img
-          src="src/logo.jpg"
-          alt="AL-KARAM TOWELS INSPECTION DATA"
-          className="logo-img"
-        />
+       <img
+  src={logo}
+  alt="AL-KARAM TOWELS INSPECTION DATA"
+  className="logo-img"
+/>
       </div>
 
       {/* Hamburger */}
@@ -86,4 +87,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
 
