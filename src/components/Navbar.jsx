@@ -43,7 +43,7 @@ export default function Navbar() {
       {/* Logo */}
       <div className="navbar-logo">
         <img
-          src="../SRC/logo.jpg"
+          src="src/logo.jpg"
           alt="AL-KARAM TOWELS INSPECTION DATA"
           className="logo-img"
         />
@@ -86,3 +86,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
