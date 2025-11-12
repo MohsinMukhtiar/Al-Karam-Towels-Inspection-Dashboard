@@ -39,7 +39,7 @@
   font-size: 1.2rem;  /* Smaller font size */
   font-weight: bold;
   text-transform: uppercase;
-  color: black; /* Change text color to black */
+  color: smoke-white; /* Change text color to black */
   margin: 0;
   letter-spacing: 1px; /* Optional: Add a little spacing between letters for better readability */
 }
@@ -124,3 +124,4 @@
     display: block;
   }
 }
+
