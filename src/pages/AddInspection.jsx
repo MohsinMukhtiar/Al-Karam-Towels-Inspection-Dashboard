@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import InspectionForm from "../components/InspectionForm";
+ import InspectionForm from "../components/InspectionForm";
 
 export default function AddInspection() {
   return (
@@ -11,7 +10,7 @@ export default function AddInspection() {
         <InspectionForm />
       </div>
 
-      <Footer />
-    </div>
+     </div>
   );
 }
+
