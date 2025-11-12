@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Dashboard from "../components/Dashboard";
+ import Dashboard from "../components/Dashboard";
 
 export default function Home() {
   return (
@@ -14,7 +13,7 @@ export default function Home() {
         <Dashboard />
       </div>
 
-      <Footer />
-    </div>
+     </div>
   );
 }
+
