@@ -42,9 +42,7 @@ export default function Navbar() {
     <nav className="navbar">
       {/* Title */}
       <div className="navbar-logo">
-        <h1 className="navbar-title">
-          AL-KARAM TOWELS INSPECTION DATA
-        </h1>
+        <h1 className="navbar-title">AL-KARAM TOWELS INSPECTION DATA</h1>
       </div>
 
       {/* Hamburger */}
